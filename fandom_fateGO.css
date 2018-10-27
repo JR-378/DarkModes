@@ -1,0 +1,126 @@
+/*   Wikia  
+================ */
+
+.WikiaPageBackground {
+    background-color: #000000 !important;
+}
+
+.WikiaTopAds {
+    /*background-color: #1F2457 !important;*/
+    display: none !important; /* Found this to be better solution */
+}
+
+.WikiaArticle, .article-comm-text {
+    background-color: #000000 !important;
+    color: white !important;
+}
+
+.speech-bubble-message {
+    background-color: #000000 !important;
+}
+
+/* I hate these videos with passion */
+.featured-video__wrapper {
+    display: none !important;
+}
+
+#WikiaAdInContentPlaceHolder {
+    display: none !important;
+}
+
+/* Fan Feed */
+/* More Fate/Grand Order Wikia */
+div.mcf-card.mcf-card-wiki-articles {
+    background-color: #000000 !important;
+}
+
+/* Fate GO specific  
+================ */
+
+/* Twitter feed */
+div.timeline-Widget {
+    background-color: #000000 !important;
+}
+
+/* Servant page */
+.ServantInfoWrapper {
+    background-color: #000000 !important;
+}
+
+.pi-tab-link {
+    background-color: #000000 !important;
+}
+
+.pi-image-collection {
+    background-color: #000000 !important;
+}
+
+.pi-image-collection-tabs {
+    background-color: #000000 !important;
+}
+.pi-image {
+    background-color: #000000 !important;
+}
+
+/* Buster NP */
+td[style="background-color: #F6DDE9"] {
+    background-color: #a50e0e !important;
+}
+
+/* Quick NP */
+td[style="background-color: #CEFFDC"] {
+    background-color: #055c0d !important;
+}
+
+/* Arts NP */
+td[style="background-color: #D9EAF6"] {
+    background-color: #004aaa !important;
+}
+
+/* Overcharge effect */
+td[style="background-color:#f6dde9;"] {
+    background-color: #691313 !important;
+}
+th[style="font-size:85%;background-color:#e5ccd8;"]{
+    background-color: #691313 !important;
+}
+td[style="font-size: 85%;background-color:#e5ccd8;"] {
+    background-color: #691313 !important;
+}
+th[style="font-size: 85%;background-color:#e5ccd8;font-weight:bold;"] {
+    background-color: #691313 !important;
+}
+th[style="font-size: 85%;background-color:#e5ccd8;"] {
+    background-color: #691313 !important;
+}
+
+/* General elements 
+================ */
+
+h1, h2, h3, h4, h5, b, span, .description {
+    color: #ffffff !important;
+}
+
+/* Dropdown items at the top*/
+li.wds-dropdown-level-2 span {
+    color: #000000 !important;
+    font-weight: bold !important;
+}
+
+p {
+    color: #ececec !important;
+}
+
+/* Selected tab */
+ul.tabs li.selected a {
+    background: #000000 !important;
+}
+
+th, td {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+table {
+    background-color: #000000 !important;
+}
