@@ -12,9 +12,15 @@
 
 .WikiaArticle, .article-comm-text {
     background-color: #000000 !important;
-    color: white !important;
+    color: #fcf9f9 !important;
 }
 
+/* Recent Wiki Activity */
+.WikiaRail .activity-module .edit-info .edit-info-user {
+    color: #8d8d8d;
+}
+
+/* Comments */
 .speech-bubble-message {
     background-color: #000000 !important;
 }
@@ -98,7 +104,7 @@ th[style="font-size: 85%;background-color:#e5ccd8;"] {
 ================ */
 
 h1, h2, h3, h4, h5, b, span, .description {
-    color: #ffffff !important;
+    color: #fcf9f9 !important;
 }
 
 /* Dropdown items at the top*/
@@ -118,7 +124,7 @@ ul.tabs li.selected a {
 
 th, td {
     background-color: #000000 !important;
-    color: #ffffff !important;
+    color: #fcf9f9 !important;
 }
 
 table {
