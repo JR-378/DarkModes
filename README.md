@@ -1,6 +1,6 @@
 # FandomWikia-FateGO-DarkMode
 
-This is a simplistic dark mode for [Fandom Fate/GO wikia](https://fategrandorder.fandom.com/wiki/Fate/Grand_Order_Wikia). In this case, simplistic stands not only for the design of the pages and removal of videos, but also how the code was written (I've seen code much more convulated than this).
+This is a simplistic dark mode for [Fandom Fate/Grand Order Wikia](https://fategrandorder.fandom.com/wiki/Fate/Grand_Order_Wikia). In this case, simplistic stands not only for the design of the pages and removal of videos, but also how the code was written (I've seen code much more convulated than this).
 
 I made this mainly for myself, as all general purpose Fandom Wikia CSS most of the time generate a huge deformed mess. This code should be simple and also human readable.
 
