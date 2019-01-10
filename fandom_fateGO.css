@@ -1,8 +1,15 @@
 /*   Wikia  
 ================ */
 
-.WikiaPageBackground {
+/* Fix share button icon*/
+svg.wds-icon.wds-icon-small {
+    color: #fcf9f9 !important;
+}
+
+/* Background */
+#WikiaPageBackground, .WikiaPageBackground {
     background-color: #000000 !important;
+    background: #000000 !important;
 }
 
 .WikiaTopAds {
@@ -15,12 +22,6 @@
     color: #fcf9f9 !important;
 }
 
-/* Recent Wiki Activity */
-.WikiaRail .activity-module .edit-info .edit-info-user {
-    color: #8d8d8d;
-}
-
-/* Comments */
 .speech-bubble-message {
     background-color: #000000 !important;
 }
@@ -34,13 +35,20 @@
     display: none !important;
 }
 
+/* Recent Wiki Activity Custom Colors*/
+/* Fix Sashimi=lol as his color is black */
+a[href$="/wiki/User:Sashimi%3Dlol"] {
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
 /* Fan Feed */
 /* More Fate/Grand Order Wikia */
 div.mcf-card.mcf-card-wiki-articles {
     background-color: #000000 !important;
 }
 
-/* Fate GO specific  
+/* Fate GO  
 ================ */
 
 /* Twitter feed */
@@ -114,7 +122,7 @@ li.wds-dropdown-level-2 span {
 }
 
 p {
-    color: #ececec !important;
+    color: #fcf9f9 !important;
 }
 
 /* Selected tab */
