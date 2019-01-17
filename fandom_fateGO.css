@@ -22,8 +22,14 @@ svg.wds-icon.wds-icon-small {
     color: #fcf9f9 !important;
 }
 
+/* Comments */
 .speech-bubble-message {
     background-color: #000000 !important;
+}
+
+.WikiaArticle pre {
+    background-color: #222222 !important;
+    border: 1px solid #dedede !important;
 }
 
 /* I hate these videos with passion */
