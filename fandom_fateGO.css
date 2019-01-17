@@ -39,7 +39,26 @@ svg.wds-icon.wds-icon-small {
 /* Fix Sashimi=lol as his color is black */
 a[href$="/wiki/User:Sashimi%3Dlol"] {
     color: #ffffff !important;
-    font-weight: bold !important;
+}
+
+/* Seems like there were many others as well... */
+a[href$="/wiki/User:Khanetho417"],
+  a[href$="/wiki/Message_Wall:Khanetho417"],
+  a[href$="/wiki/User:KatsushikaHokusai"],
+  a[href$="/wiki/Message_Wall:KatsushikaHokusai"],
+  a[href$="/wiki/User:Ein_Inferno"],
+  a[href$="/wiki/Message_Wall:Ein_Inferno"],
+  a[href$="/wiki/User:MasterOkabe"],
+  a[href$="/wiki/Message_Wall:MasterOkabe"],
+  a[href$="/wiki/User:ArthurBestHusbando"],
+  a[href$="/wiki/Message_Wall:ArthurBestHusbando"],
+  a[href$="/wiki/User:ZokeiR"],
+  a[href$="/wiki/Message_Wall:ZokeiR"],
+  a[href$="/wiki/User:Rockjuve"],
+  a[href$="/wiki/Message_Wall:Rockjuve"],
+  a[href$="/wiki/User:Neetohh"],
+  a[href$="/wiki/Message_Wall:Neetohh"] {
+    color: #ffffff !important;
 }
 
 /* Fan Feed */
