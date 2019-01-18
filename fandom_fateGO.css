@@ -41,7 +41,11 @@ svg.wds-icon.wds-icon-small {
     display: none !important;
 }
 
-/* Recent Wiki Activity Custom Colors*/
+/* Recent Wiki Activity User Colors*/
+a.edit-info-user {
+    color: #747474bf !important;
+}
+
 /* Fix Sashimi=lol as his color is black */
 a[href$="/wiki/User:Sashimi%3Dlol"] {
     color: #ffffff !important;
@@ -76,15 +80,44 @@ div.mcf-card.mcf-card-wiki-articles {
 /* Fate GO  
 ================ */
 
+/* Home Page */
 /* Twitter feed */
 div.timeline-Widget {
     background-color: #000000 !important;
+}
+
+/* News, Current events */
+span[style="color:#FFFFFF;"] big {
+    color: #ffffff;
+}
+
+span[style="color:#1f2557;"] big {
+    color: #1f2557;
+}
+
+/* Upcoming events */
+span[style="color:#FF0000;"] big {
+    color: #FF0000 !important;
 }
 
 /* Servant page */
 .ServantInfoWrapper {
     background-color: #000000 !important;
 }
+
+/* Start: Make glyph visible  */
+div.ServantInfoStatsWrapper table.closetable {
+    background-color: transparent !important;
+}
+
+div.ServantInfoStatsWrapper table.closetable tbody tr th {
+    background-color: transparent !important;
+}
+
+table.ServantInfoNav {
+    background-color: transparent !important;
+}
+/* End: Make glyph visible */
 
 .pi-tab-link {
     background-color: #000000 !important;
@@ -136,7 +169,7 @@ th[style="font-size: 85%;background-color:#e5ccd8;"] {
 /* General elements 
 ================ */
 
-h1, h2, h3, h4, h5, b, span, .description {
+h1, h2, h3, h4, h5, b, p, td, span, .description {
     color: #fcf9f9 !important;
 }
 
@@ -146,20 +179,29 @@ li.wds-dropdown-level-2 span {
     font-weight: bold !important;
 }
 
-p {
-    color: #fcf9f9 !important;
-}
-
 /* Selected tab */
 ul.tabs li.selected a {
     background: #000000 !important;
 }
 
-th, td {
+th {
     background-color: #000000 !important;
     color: #fcf9f9 !important;
 }
 
 table {
     background-color: #000000 !important;
+}
+
+/* To make <big> usually look nice... */
+big {
+    color: #8f8b8b;
+}
+
+/* Special Fixes
+================ */
+
+/* Götterdämmerung */
+.gotterdammerung-bg {
+    background: #000000 !important;
 }
