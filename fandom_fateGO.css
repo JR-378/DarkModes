@@ -106,15 +106,15 @@ span[style="color:#FF0000;"] big {
 }
 
 /* Start: Make glyph visible  */
-div.ServantInfoStatsWrapper table.closetable {
+div.ServantInfoStatsWrapper table.closetable,
+div.ServantInfoStatsWrapper table.closetable tbody tr th,
+div.ServantInfoStatsWrapper table.closetable tbody tr td {
     background-color: transparent !important;
 }
 
-div.ServantInfoStatsWrapper table.closetable tbody tr th {
-    background-color: transparent !important;
-}
-
-table.ServantInfoNav {
+table.ServantInfoNav,
+table.ServantInfoNav tbody tr,
+table.ServantInfoNav tbody tr td {
     background-color: transparent !important;
 }
 /* End: Make glyph visible */
@@ -184,7 +184,7 @@ ul.tabs li.selected a {
     background: #000000 !important;
 }
 
-th {
+th, td {
     background-color: #000000 !important;
     color: #fcf9f9 !important;
 }
