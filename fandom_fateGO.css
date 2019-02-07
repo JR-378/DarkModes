@@ -112,6 +112,12 @@ span[style="color:#FF0000;"] big {
     color: #FF0000 !important;
 }
 
+/* Search */
+
+.Search .SearchInput {
+    background: #000000 !important;
+}
+
 /* Servant page
    ============ */
 
@@ -192,11 +198,9 @@ Event page fixes
 }
 
 /* Valentine 2016 Re-Run*/
-body.page-Valentine_2016_Event_Re-Run img[src="https://vignette.wikia.nocookie.net/fategrandorder/images/a/a8/Valentine2016Divider.png/revision/latest/scale-to-width-down/700?cb=20160514061024"] {
+
+img[alt="Valentine2016Divider"] {
     background-color: #fcf9f9 !important;
-}
-body.page-Valentine_2016_Event_Re-Run big {
-    color: #000000 !important;
 }
 
 /* General elements 
