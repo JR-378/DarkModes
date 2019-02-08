@@ -198,6 +198,10 @@ th[style="font-size: 85%;background-color:#e5ccd8;"] {
     background-image: none !important;
 }
 
+.WikiaRail .module {
+    background: #000000 !important;
+}
+
 /* Forum */
 .Forum .activity {
     color: #8a8888 !important;
