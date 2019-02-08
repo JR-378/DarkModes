@@ -188,6 +188,66 @@ th[style="font-size: 85%;background-color:#e5ccd8;"] {
     background-color: #691313 !important;
 }
 
+/* Community 
+============ */
+
+/* Achievements */
+.LeaderboardTable .rank span {
+    background-image: none !important;
+}
+
+#about-achievements {
+    background-image: none !important;
+}
+
+/* Forum */
+.Forum .activity {
+    color: #8a8888 !important;
+}
+
+.Wall .comments .SpeechBubble .msg-title a {
+    color: #8a8888 !important;
+}
+
+.WikiaPage .page-header__page-subtitle nav {
+    color: #8a8888 !important;
+}
+
+/* Discussion */
+
+div#ember4 {
+    background-color: #363535 !important;
+}
+
+.site-head-container {
+    min-height: 2.2rem !important;
+}
+
+.discussion-fieldset legend {
+    color: #fcf9f9 !important;
+}
+
+.discussion-wrapper {
+    background-color: #000000 !important;
+}
+
+.discussion.forum .post-detail {
+    background-color: #000000 !important;
+}
+
+.post-entry-point__items {
+    background-color: #000000 !important;
+}
+
+.has-gradient .post-content__body::before {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffffff00), color-stop(95%, #000000)) !important;
+    background: linear-gradient(to bottom, #ffffff00 50%, #000000 95%) !important;
+}
+
+.post-content {
+    color: #fcf9f9 !important;
+}
+
 /* 
 ================
 Event page fixes
@@ -208,7 +268,7 @@ img[alt="Valentine2016Divider"] {
 /* General elements 
 ================ */
 
-h1, h2, h3, h4, h5, b, p, td, span, .description {
+h1, h2, h3, h4, h5, b, p, td, span, .description, label {
     color: #fcf9f9 !important;
 }
 
