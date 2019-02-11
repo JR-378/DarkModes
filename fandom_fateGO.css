@@ -4,6 +4,16 @@
 ================ 
 */
 
+
+/* Seach box */
+.wds-dropdown__content {
+    background-color: #000000 !important;
+}
+
+.wds-dropdown__content .wds-list.wds-is-linked > li > a {
+    color: #556577 !important;
+}
+
 /* Fix share button icon*/
 svg.wds-icon.wds-icon-small {
     color: #fcf9f9 !important;
@@ -248,6 +258,22 @@ div#ember4 {
 
 .post-content {
     color: #fcf9f9 !important;
+}
+
+.discussion .load-older {
+    background-color: #202020 !important;
+}
+
+.inline-wrapper .user-avatar {
+    background-color: #000000 !important;
+}
+
+.inline-editor__floating-container {
+    background-color: #000000 !important;
+}
+
+.editor-toolbar {
+    background-color: #000000 !important;
 }
 
 /* 
