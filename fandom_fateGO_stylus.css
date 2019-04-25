@@ -304,7 +304,8 @@ h1, h2, h3, h4, h5, b, p, td, span, .description, label {
 
 /* Dropdown items at the top*/
 li.wds-dropdown-level-2 span {
-    color: #000000 !important;
+    color: #fcf9f9 !important;
+    /* color: #000000 !important;*/
     font-weight: bold !important;
 }
 
