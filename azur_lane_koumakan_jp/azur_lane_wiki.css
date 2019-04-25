@@ -1,0 +1,207 @@
+﻿/*
+================
+Azur Lane Wiki
+================ 
+*/
+
+/* Main page
+============ */
+
+div#mw-head {
+    background-color: #000000 !important;
+}
+
+.mw-body, .parsoid-body {
+    background-color: #000000 !important;
+    color: #fcf9f9 !important;
+}
+
+/* Tabs in the head*/
+div.vectorTabs ul li {
+    background-color: #000000 !important;
+    background-image: none !important;
+    /*
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkCAIAAADITs03AAAAO0lEQ…gBjl2f78wd2DVj1+26/h///PfteVMN7zoGebcg1/Y/ZQQAlAUtQCujIJMAAAAASUVORK5CYII=);
+    background-image: url(/w/skins/Vector/images/tab-normal-fade.png?1cc52);
+    */
+}
+
+/* Links in tabs */
+div.vectorTabs li.selected a, div.vectorTabs li.selected a:visited {
+    color: #fcf9f9 !important;
+    background-color: #1d1d1d !important;
+}
+
+div.vectorTabs li a {
+    color: #0651c9 !important;
+}
+
+/* First box */
+.azl_box.green {
+    border-color: #9ecf9e !important;
+}
+.azl_box.green .azl_box_body {
+    background: #003100 !important;
+}
+
+/* Second box */
+.azl_box.blue .azl_box_head,
+.azl_box.lavender .azl_box_sub {
+    background: #00264d !important;
+}
+.azl_box.blue .azl_box_sub {
+    background: #00264d !important;
+}
+div.azl_box_title {
+    color: #fcf9f9 !important;
+}
+
+/* Chinese server names */
+.azl_box.yellow .azl_box_head {
+    background: #2b2700 !important;
+}
+.azl_box.yellow .azl_box_sub {
+    background: #665e00 !important;
+}
+.azl_box.yellow .azl_news_date {
+    background: #665e00 !important;
+}
+
+div.azl_news_month, div.azl_news_day {
+    color: #fcf9f9 !important;
+}
+
+/* Japanese server news */
+.azl_box.pink .azl_box_head {
+    background: #ff2c4f !important;
+}
+.azl_box.pink .azl_box_sub {
+    background: #f34963 !important;
+}
+.azl_box.pink .azl_news_date {
+    background: #f34963 !important;
+}
+
+/* Chinese client links */
+.azl_box_head[style="color:#000; background:#dfd77d;"] {
+    background: #665e00 !important;
+}
+.azl_box_body[style="background:#f1edc1;"] {
+    background: #2b2700 !important;
+}
+
+/* Japanese client links */
+.azl_box_head[style="color:#000; background:#ffc0cb;"] {
+    background: #f34963 !important;
+}
+.azl_box_body[style="background:#f5e1e4;"] {
+    background: #79222f !important;
+}
+
+/* Other links */
+.azl_box_head {
+    background: #00264d !important;
+}
+.azl_box_body,
+.azl_box.gray .azl_box_sub {
+    background: #001a33 !important;
+}
+
+/* Ship Page
+============ */
+
+table.wikitable {
+    background-color: #222 !important;
+    color: #fcf9f9 !important;
+}
+
+table.wikitable > tr > th, table.wikitable > * > tr > th {
+    background-color: #222;
+}
+
+/* Ship name... */
+div[style="border-style:solid;border-width:1px 1px 0px 1px;border-color:#a2a9b1;width:100%;background-color:#eaecf0;text-align:center;font-weight:bold;"] {
+    background-color: #222 !important;
+}
+
+/* Ship chibi on the bottom-left */
+div#talkingchibitext {
+    background-color: #222 !important;
+}
+
+/* Custom background fixes*/
+td[style="background-color:lightgreen"],
+td[style="background-color:PaleGoldenrod"],
+td[style="background-color:PowderBlue"],
+td[style="background-color:Pink"],
+td[style="background-color:PaleGreen"],
+td[style="background-color:LightGreen"],
+td[style="background-color:Gainsboro"] {
+    color: #000000 !important;
+}
+
+td[style="background-color:Lavender"],
+th[style="background-color:lavender"] {
+    background-color: #2c2c2c !important;
+}
+
+/* Skills */
+th[style="background-color:Pink"] {
+    background-color: #c70000 !important;
+}
+th[style="background-color:DeepSkyBlue"] {
+    background-color: #000f9b !important;
+}
+th[style="background-color:Gold"] {
+    background-color: #ff9100 !important;
+}
+
+ul.tabbernav li a {
+    background: #000000 !important;
+}
+
+ul.tabbernav li a:hover {
+    color: #fcf9f9 !important;
+    border-color: #350053 !important;
+    background: #011535 !important;
+}
+
+ul.tabbernav li.tabberactive a {
+    background-color: #011535 !important;
+    border-bottom: 1px solid #FFF !important;
+}
+
+/* TOC */
+#toc, .toc, .mw-warning, .toccolours {
+    background-color: #000000 !important;
+}
+
+/* Links at the bottom */
+.catlinks {
+    background-color: #000000 !important;
+}
+
+/* Retrofit*/
+
+#mw-content-text > div > div > div > div > span {
+    color: #000000 !important;
+}
+
+/* General elements 
+================ */
+
+h1, h2, h3, h4, h5, b, p, td {
+    color: #fcf9f9 !important;
+}
+
+body {
+    background-color: #000000 !important;
+}
+
+a {
+    color: #2f85f5 !important;
+}
+
+a:visited {
+    color: #544daa !important;
+}
