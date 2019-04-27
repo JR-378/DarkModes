@@ -201,6 +201,20 @@ th[style="font-size: 85%;background-color:#e5ccd8;"] {
 /* Community 
 ============ */
 
+/* Emulator status - https://fategrandorder.fandom.com/wiki/Emulator_Status */
+
+span[style="color:Red;"] {
+    color: red !important;
+}
+
+span[style="color:Yellow;"] {
+    color: yellow !important;
+}
+
+span[style="color:Green;"] {
+    color: green !important;
+}
+
 /* Achievements */
 .LeaderboardTable .rank span {
     background-image: none !important;
