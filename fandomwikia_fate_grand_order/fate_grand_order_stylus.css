@@ -183,19 +183,22 @@ td[style="background-color: #D9EAF6"] {
 
 /* Overcharge effect */
 td[style="background-color:#f6dde9;"] {
-    background-color: #691313 !important;
+    background-color: #580808 !important;
 }
 th[style="font-size:85%;background-color:#e5ccd8;"]{
-    background-color: #691313 !important;
+    background-color: #580808 !important;
 }
 td[style="font-size: 85%;background-color:#e5ccd8;"] {
-    background-color: #691313 !important;
+    background-color: #580808 !important;
 }
 th[style="font-size: 85%;background-color:#e5ccd8;font-weight:bold;"] {
-    background-color: #691313 !important;
+    background-color: #580808 !important;
 }
 th[style="font-size: 85%;background-color:#e5ccd8;"] {
-    background-color: #691313 !important;
+    background-color: #580808 !important;
+}
+td[style="font-size: 85%;background-color:#f6dde9;"] {
+    background-color: #580808 !important;
 }
 
 /* Community 
