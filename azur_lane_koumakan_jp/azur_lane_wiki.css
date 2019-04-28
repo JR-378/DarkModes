@@ -187,6 +187,13 @@ ul.tabbernav li.tabberactive a {
     color: #000000 !important;
 }
 
+/* Event Page */
+
+div[style="border: 2px solid dimgray; border-radius: 0px 0px 8px 8px; text-align:center; color:#444444; width:134px; background-color:#eeeeee; padding: 2px 5px; font-size:12px"] b {
+    color: #000000 !important;
+}
+
+
 /* General elements 
 ================ */
 

@@ -13,3 +13,7 @@ As this was made to satisfy myself, not everyone will enjoy it. However, suggest
 ## Azur Lane Koumakan JP - Dark Mode
 
 Dark mode for [Azur Lane Wiki](https://azurlane.koumakan.jp/Azur_Lane_Wiki)
+
+## Medium – Dark Grey Fixed
+
+My fixes to [Medium – Dark Grey](https://userstyles.org/styles/137280/medium-medium-com-dark-grey) by apushkarev.
