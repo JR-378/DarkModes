@@ -4,21 +4,48 @@ Azur Lane Wiki
 ================ 
 */
 
+:root {
+    --main-background-color: #000000;
+    --main-text-color: #fcf9f9;
+}
+
 /* Main page
 ============ */
 
 div#mw-head {
-    background-color: #000000 !important;
+    background-color: var(--main-background-color) !important;
 }
 
 .mw-body, .parsoid-body {
-    background-color: #000000 !important;
-    color: #fcf9f9 !important;
+    background-color: var(--main-background-color) !important;
+    color: var(--main-text-color) !important;
+}
+
+/* Search */
+.suggestions-results, .suggestions-special {
+    background-color: var(--main-background-color) !important;
+}
+
+.suggestions-result {
+    color: var(--main-text-color) !important;
+}
+
+.suggestions-special .special-label {
+    color: #b1b1b1 !important;
+}
+
+input#searchInput {
+    background-color: var(--main-background-color) !important;
+    color: var(--main-text-color) !important;
+}
+
+.suggestions-special .special-query {
+    color: var(--main-text-color) !important;
 }
 
 /* Tabs in the head*/
 div.vectorTabs ul li {
-    background-color: #000000 !important;
+    background-color: var(--main-background-color) !important;
     background-image: none !important;
     /*
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkCAIAAADITs03AAAAO0lEQ…gBjl2f78wd2DVj1+26/h///PfteVMN7zoGebcg1/Y/ZQQAlAUtQCujIJMAAAAASUVORK5CYII=);
@@ -28,7 +55,7 @@ div.vectorTabs ul li {
 
 /* Links in tabs */
 div.vectorTabs li.selected a, div.vectorTabs li.selected a:visited {
-    color: #fcf9f9 !important;
+    color: var(--main-text-color) !important;
     background-color: #1d1d1d !important;
 }
 
@@ -53,7 +80,7 @@ div.vectorTabs li a {
     background: #00264d !important;
 }
 div.azl_box_title {
-    color: #fcf9f9 !important;
+    color: var(--main-text-color) !important;
 }
 
 /* Chinese server names */
@@ -68,7 +95,7 @@ div.azl_box_title {
 }
 
 div.azl_news_month, div.azl_news_day {
-    color: #fcf9f9 !important;
+    color: var(--main-text-color) !important;
 }
 
 /* Japanese server news */
@@ -112,32 +139,29 @@ div.azl_news_month, div.azl_news_day {
 
 table.wikitable {
     background-color: #222 !important;
-    color: #fcf9f9 !important;
+    color: var(--main-text-color) !important;
 }
 
 table.wikitable > tr > th, table.wikitable > * > tr > th {
     background-color: #222;
 }
 
-/* Ship name... */
-div[style="border-style:solid;border-width:1px 1px 0px 1px;border-color:#a2a9b1;width:100%;background-color:#eaecf0;text-align:center;font-weight:bold;"] {
+/* General, Quoetes, History */
+div[style="background: #F2F7FF;width: fit-content;font: 20px Arial;"],
+div[style="background: #F2F7FF; width: fit-content; font: 20px Arial;"] {
     background-color: #222 !important;
+}
+
+/* Ship name... */
+div[style="border-style:solid;border-width:1px 1px 0px 1px;border-color:#a2a9b1;width:100%;background-color:#eaecf0;text-align:center;font-weight:bold;"],
+div[style="border-style:solid; border-width:1px 1px 0px 1px; border-color:#a2a9b1; width:100%; background-color:#eaecf0; text-align:center; font-weight:bold"] {
+    background-color: #222 !important;
+    color: var(--main-text-color) !important
 }
 
 /* Ship chibi on the bottom-left */
 div#talkingchibitext {
     background-color: #222 !important;
-}
-
-/* Custom background fixes*/
-td[style="background-color:lightgreen"],
-td[style="background-color:PaleGoldenrod"],
-td[style="background-color:PowderBlue"],
-td[style="background-color:Pink"],
-td[style="background-color:PaleGreen"],
-td[style="background-color:LightGreen"],
-td[style="background-color:Gainsboro"] {
-    color: #000000 !important;
 }
 
 td[style="background-color:Lavender"],
@@ -161,7 +185,7 @@ ul.tabbernav li a {
 }
 
 ul.tabbernav li a:hover {
-    color: #fcf9f9 !important;
+    color: var(--main-txt-color) !important;
     border-color: #350053 !important;
     background: #011535 !important;
 }
@@ -183,7 +207,7 @@ ul.tabbernav li.tabberactive a {
 
 /* Retrofit*/
 
-#mw-content-text > div > div > div > div > span {
+div[style="float:left;position:relative"] {
     color: #000000 !important;
 }
 
@@ -193,16 +217,120 @@ div[style="border: 2px solid dimgray; border-radius: 0px 0px 8px 8px; text-align
     color: #000000 !important;
 }
 
+/* Custom fixes
+============ */
+
+/* Custom background fixes*/
+td[style="background-color:PowderBlue"],
+td[style="background-color:PowderBlue;"],
+td[style="background: PowderBlue;"],
+td[style="background: PowderBlue"],
+td[style="background-color: PowderBlue"],
+td[style="background-color:PowderBlue; padding:2px 5px"] {
+    background-color: #0e0042 !important;
+    color: var(--main-text-color) !important;
+}
+
+td[style="background-color:NavajoWhite"],
+td[style="background-color:NavajoWhite;"],
+td[style="background-color:NavajoWhite; padding:2px 5px"] {
+    background-color: #833f00 !important;
+    color: var(--main-text-color) !important;
+}
+td[style="background-color:Pink"],
+td[style="background-color:Pink;"],
+td[style="background-color:Pink; padding:2px 5px"],
+td[style="background-color:Pink; padding:2px 5px; padding:2px 5px"] {
+    background-color: #750202 !important;
+    color: var(--main-text-color) !important;
+}
+
+tr[style="background-color:Plum"],
+tr[style="background-color:Plum;"],
+td[style="background-color:Plum"],
+td[style="background-color:Plum;"],
+td[style="background: Plum;"],
+td[style="background: Plum"],
+td[style="background-color: Plum"],
+td[style="background-color:Plum; padding:2px 5px"] {
+    background-color: #5a0056 !important;
+    color: var(--main-text-color) !important;
+}
+
+td[style="background-color:PaleGreen"],
+td[style="background-color:PaleGreen;"],
+td[style="background-color:PaleGreen; padding:2px 5px"] {
+    background-color: #00380c !important;
+    color: var(--main-text-color) !important;
+}
+
+td[style="background-color:Aquamarine"],
+td[style="background-color:Aquamarine;"],
+td[style="background-color:Aquamarine; padding:2px 5px"] {
+    background-color: #002838 !important;
+    color: var(--main-text-color) !important;
+}
+
+tr[style="background-color:PaleGoldenrod"],
+td[style="background-color:PaleGoldenrod"],
+td[style="background: PaleGoldenrod;"],
+td[style="background-color:PaleGoldenrod;"] {
+    background-color: #a04000 !important;
+    color: var(--main-text-color) !important;
+}
+
+td[style="background-color:lightgreen;"],
+td[style="background-color:lightgreen"],
+td[style="background-color:lightgreen"][rowspan="2"],
+td[style="background-color:LightGreen"] {
+    background-color: #034d00 !important;
+    color: var(--main-text-color)9 !important;
+}
+
+td[style="background-color:Gainsboro"] {
+    color: #000000 !important;
+}
+
+td[style="background-color:gold"] {
+    background-color: #ff9100 !important;
+}
+
+td[style="background-color:Lavender"],
+th[style="background-color:lavender"] {
+    background-color: #2c2c2c !important;
+}
+
+/* Ship Drop Table */
+.mw-collapsible {
+    background-color: var(--main-background-color) !important;
+}
+
+a span[style="color:#444444"],
+a span[style="color:#444444;"] {
+    color: var(--main-txt-color) !important;
+}
+
+/* Ultra Rare... */
+
+td[style="background-color:background-image: -moz-linear-gradient(left, #ffdddd, #ddffdd 50%, #ddddff); background-image: -o-linear-gradient(left, #ffdddd, #ddffdd 50%, #ddddff); background-image: -webkit-linear-gradient(left, #ffdddd, #ddffdd 50%, #ddddff); background-image: linear-gradient(to right, #ffdddd, #ddffdd 50%, #ddddff);"]{
+    color: #000000 !important;
+}
+
 
 /* General elements 
 ================ */
 
 h1, h2, h3, h4, h5, b, p, td {
-    color: #fcf9f9 !important;
+    color: var(--main-text-color) !important;
 }
 
 body {
-    background-color: #000000 !important;
+    background-color: var(--main-background-color) !important;
+}
+
+td, tr {
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
 }
 
 a {
