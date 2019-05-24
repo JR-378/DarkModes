@@ -217,6 +217,15 @@ div[style="border: 2px solid dimgray; border-radius: 0px 0px 8px 8px; text-align
     color: #000000 !important;
 }
 
+/* Ship cards */
+
+div[style="border: 2px solid dimgray; border-radius: 0px 0px 8px 8px; text-align:center; color:#444444; width:134px; background-color:#eeeeee; padding: 2px 5px; font-size:11px"],
+div[style="border: 2px solid dimgray;border-radius: 0px 0px 8px 8px;text-align:center;color:#444444;width:134px;background-color:#eeeeee;padding: 2px 5px;font-size:11px;"] {
+    background-color: #1d1d1d !important;
+    color: var(--main-text-color) !important;
+}
+
+
 /* Custom fixes
 ============ */
 
@@ -312,7 +321,7 @@ a span[style="color:#444444;"] {
 
 /* Ultra Rare... */
 
-td[style="background-color:background-image: -moz-linear-gradient(left, #ffdddd, #ddffdd 50%, #ddddff); background-image: -o-linear-gradient(left, #ffdddd, #ddffdd 50%, #ddddff); background-image: -webkit-linear-gradient(left, #ffdddd, #ddffdd 50%, #ddddff); background-image: linear-gradient(to right, #ffdddd, #ddffdd 50%, #ddddff);"]{
+td[style="background-color:background-image: -moz-linear-gradient(left, #ffdddd, #ddffdd 50%, #ddddff); background-image: -o-linear-gradient(left, #ffdddd, #ddffdd 50%, #ddddff); background-image: -webkit-linear-gradient(left, #ffdddd, #ddffdd 50%, #ddddff); background-image: linear-gradient(to right, #ffdddd, #ddffdd 50%, #ddddff);"] b{
     color: #000000 !important;
 }
 
@@ -322,6 +331,11 @@ td[style="background-color:background-image: -moz-linear-gradient(left, #ffdddd,
 
 h1, h2, h3, h4, h5, b, p, td {
     color: var(--main-text-color) !important;
+}
+
+i {
+    color: var(--main-text-color) !important;
+    font-weight: bold !important;
 }
 
 body {

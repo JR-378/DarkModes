@@ -375,7 +375,7 @@ rect {
 	color: var(--color_fg1);
 }
 
-.cc {
+.cc, .cg {
 	color: var(--color_fg2);
 }
 
@@ -401,6 +401,7 @@ body,
 .responsesStream-title .heading-title,
 .label--withIcon .svgIcon,
 .label,
+.ac,
 .popover-inner,
 .popover-prePublishTags,
 .popover-prePublishDescription,
