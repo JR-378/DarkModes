@@ -125,7 +125,9 @@ body.is-withMagicUnderlines .markup--anchor.markup--mixtapeEmbed-anchor, .u-tint
 select,
 .twitter-card,
 .overlay--dark .overlay-dialog,
-.postArticle--full.postArticle--letter>.postArticle-content .section--first:not(.is-imageBackgrounded):before, .drawer, .streamItemConversationItem--summary, .butterBar-message, .fs, .gd::after, .fh, .fb, .gd, .go::after {
+.postArticle--full.postArticle--letter>.postArticle-content .section--first:not(.is-imageBackgrounded):before, .drawer, .streamItemConversationItem--summary, .butterBar-message, .fs, .gd::after, .fh, 
+/*.fb,*/ 
+.gd, .go::after {
     background-color: var(--color_bg3);
 }
 .u-borderCardBackground, .u-background--brandSea {
