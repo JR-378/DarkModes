@@ -453,7 +453,7 @@ body.status,
 .sortableTable-header.is-reverseSorted button:focus,
 .sortableTable-header.is-sorted button,
 .sortableTable-header.is-sorted button:focus,
-.lockedPostHeader, .textInput--darkText, .gist .gist-meta a, .listChoice-item>.button--link, .listChoice-textColumn--right, .drawer-content, .m, .ae, .bz, .ch, .cm, .cn, .ce, .elevate-caps, .elevate-h1, .elevate-summary, .elevate-h2, .elevate-h3, .elevate-h4, .elevate-h5, .elevate-h6, .cj, .dd, .dc {
+.lockedPostHeader, .textInput--darkText, .gist .gist-meta a, .listChoice-item>.button--link, .listChoice-textColumn--right, .drawer-content, .m, .ae, .bz, .ch, .cm, .cn, .ce, .elevate-caps, .elevate-h1, .elevate-summary, .elevate-h2, .elevate-h3, .elevate-h4, .elevate-h5, .elevate-h6, .cj, .dd, .dc, .eq, .bl, .ao {
     color: var(--color_fg3);
     fill: var(--color_fg3);
 }
