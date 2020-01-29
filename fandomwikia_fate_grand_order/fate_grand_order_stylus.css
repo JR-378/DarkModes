@@ -6,6 +6,10 @@
 ================ 
 */
 
+/* Menu dropdown */
+.wds-is-not-scrollable {
+    background-color: #000000 !important;
+}
 
 /* Seach box */
 .wds-dropdown__content {
@@ -13,7 +17,7 @@
 }
 
 .wds-dropdown__content .wds-list.wds-is-linked > li > a {
-    color: #556577 !important;
+    color: #66798f !important;
 }
 
 /* Fix share button icon*/
@@ -61,37 +65,6 @@ a.edit-info-user {
     color: #747474bf !important;
 }
 
-/* Fix Sashimi=lol as his color is black */
-a[href$="/wiki/User:Sashimi%3Dlol"] {
-    color: #ffffff !important;
-}
-
-/* Seems like there were many others as well... */
-a[href$="/wiki/User:Khanetho417"],
-  a[href$="/wiki/Message_Wall:Khanetho417"],
-  a[href$="/wiki/User:KatsushikaHokusai"],
-  a[href$="/wiki/Message_Wall:KatsushikaHokusai"],
-  a[href$="/wiki/User:Ein_Inferno"],
-  a[href$="/wiki/Message_Wall:Ein_Inferno"],
-  a[href$="/wiki/User:MasterOkabe"],
-  a[href$="/wiki/Message_Wall:MasterOkabe"],
-  a[href$="/wiki/User:ArthurBestHusbando"],
-  a[href$="/wiki/Message_Wall:ArthurBestHusbando"],
-  a[href$="/wiki/User:ZokeiR"],
-  a[href$="/wiki/Message_Wall:ZokeiR"],
-  a[href$="/wiki/User:Rockjuve"],
-  a[href$="/wiki/Message_Wall:Rockjuve"],
-  a[href$="/wiki/User:Neetohh"],
-  a[href$="/wiki/Message_Wall:Neetohh"] {
-    color: #ffffff !important;
-}
-
-/* Fan Feed */
-/* More Fate/Grand Order Wikia */
-div.mcf-card.mcf-card-wiki-articles {
-    background-color: #000000 !important;
-}
-
 /*
 ================
 Fate GO  
@@ -100,6 +73,14 @@ Fate GO
 
 /* Home Page
    ========= */
+div.mcf-card.mcf-card-wiki-articles {
+    background-color: #000000 !important;
+}
+
+/* FGO skin */
+body.skin-oasis {
+    background-color: #000000 !important;
+}
 
 /* Twitter feed */
 div.timeline-Widget {
@@ -306,12 +287,6 @@ Event page fixes
     background: #000000 !important;
 }
 
-/* Valentine 2016 Re-Run*/
-
-img[alt="Valentine2016Divider"] {
-    background-color: #fcf9f9 !important;
-}
-
 /* General elements 
 ================ */
 
@@ -344,4 +319,5 @@ table {
 big {
     color: #8f8b8b;
 }
+
 }
