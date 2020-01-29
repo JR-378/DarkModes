@@ -4,6 +4,10 @@
 ================ 
 */
 
+/* Menu dropdown */
+.wds-is-not-scrollable {
+    background-color: #000000 !important;
+}
 
 /* Seach box */
 .wds-dropdown__content {
@@ -11,7 +15,7 @@
 }
 
 .wds-dropdown__content .wds-list.wds-is-linked > li > a {
-    color: #556577 !important;
+    color: #66798f !important;
 }
 
 /* Fix share button icon*/
