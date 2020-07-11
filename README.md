@@ -6,7 +6,7 @@ I create my own only when [Dark Reader](https://darkreader.org/) does not work t
 
 ## Building
 
-To build the static css file.
+To build the static css files.
 
 ``` CMD
 npm run build
