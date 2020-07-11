@@ -23,6 +23,14 @@ table.ServantInfoNav tbody tr td {
 }
 /* End: Make glyph visible */
 
+/* Remove atlantis-bg 
+Noticed here: https://fategrandorder.fandom.com/wiki/Achilles
+*/
+
+.atlantis-bg {
+    background: none !important;
+}
+
 .pi-tab-link {
     background-color: #000000 !important;
 }

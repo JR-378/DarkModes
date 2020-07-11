@@ -1,7 +1,4 @@
-@-moz-document domain(fategrandorder.fandom.com)
-{
-    @import url("../fandomwikia.css");
-    @import url("./fate_grand_order.css");
-    @import url("./servant_page.css");
-    @import url("./community.css");
-}
+@import url("../fandomwikia.css");
+@import url("./fate_grand_order.css");
+@import url("./servant_page.css");
+@import url("./community.css");
