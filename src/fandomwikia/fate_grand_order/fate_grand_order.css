@@ -1,0 +1,90 @@
+
+/*
+================
+Fate GO  
+================ 
+*/
+
+/* Home Page
+   ========= */
+div.mcf-card.mcf-card-wiki-articles {
+    background-color: #000000 !important;
+}
+
+/* FGO skin */
+body.skin-oasis {
+    background-color: #000000 !important;
+}
+
+/* Twitter feed */
+div.timeline-Widget {
+    background-color: #000000 !important;
+}
+
+/* News, Current events */
+span[style="color:#FFFFFF;"] big {
+    color: #ffffff !important;
+}
+
+span[style="color:white;"] big {
+    color: #ffffff !important;
+}
+
+span[style="color:#1f2557;"] big {
+    color: #1f2557 !important;
+}
+
+/* Upcoming events */
+span[style="color:#FF0000;"] big {
+    color: #FF0000 !important;
+}
+
+/* Search */
+
+.Search .SearchInput {
+    background: #000000 !important;
+}
+
+/* 
+================
+Event page fixes
+================ 
+*/
+
+/* Götterdämmerung */
+.gotterdammerung-bg {
+    background: #000000 !important;
+}
+
+/* General elements 
+================ */
+
+h1, h2, h3, h4, h5, b, p, td, span, .description, label {
+    color: #fcf9f9 !important;
+}
+
+/* Dropdown items at the top*/
+li.wds-dropdown-level-2 span {
+    color: #fcf9f9 !important;
+    /* color: #000000 !important;*/
+    font-weight: bold !important;
+}
+
+/* Selected tab */
+ul.tabs li.selected a {
+    background: #000000 !important;
+}
+
+th, td {
+    background-color: #000000 !important;
+    color: #fcf9f9 !important;
+}
+
+table {
+    background-color: #000000 !important;
+}
+
+/* To make <big> usually look nice... */
+big {
+    color: #8f8b8b;
+}

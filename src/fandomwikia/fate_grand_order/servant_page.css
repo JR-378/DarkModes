@@ -1,0 +1,74 @@
+
+/* 
+============
+Servant page
+============ 
+*/
+
+   .ServantInfoWrapper {
+    background-color: #000000 !important;
+}
+
+/* Start: Make glyph visible  */
+div.ServantInfoStatsWrapper table.closetable,
+div.ServantInfoStatsWrapper table.closetable tbody tr th,
+div.ServantInfoStatsWrapper table.closetable tbody tr td {
+    background-color: transparent !important;
+}
+
+table.ServantInfoNav,
+table.ServantInfoNav tbody tr,
+table.ServantInfoNav tbody tr td {
+    background-color: transparent !important;
+}
+/* End: Make glyph visible */
+
+.pi-tab-link {
+    background-color: #000000 !important;
+}
+
+.pi-image-collection {
+    background-color: #000000 !important;
+}
+
+.pi-image-collection-tabs {
+    background-color: #000000 !important;
+}
+.pi-image {
+    background-color: #000000 !important;
+}
+
+/* Buster NP */
+td[style="background-color: #F6DDE9"] {
+    background-color: #a50e0e !important;
+}
+
+/* Quick NP */
+td[style="background-color: #CEFFDC"] {
+    background-color: #055c0d !important;
+}
+
+/* Arts NP */
+td[style="background-color: #D9EAF6"] {
+    background-color: #004aaa !important;
+}
+
+/* Overcharge effect */
+td[style="background-color:#f6dde9;"] {
+    background-color: #580808 !important;
+}
+th[style="font-size:85%;background-color:#e5ccd8;"]{
+    background-color: #580808 !important;
+}
+td[style="font-size: 85%;background-color:#e5ccd8;"] {
+    background-color: #580808 !important;
+}
+th[style="font-size: 85%;background-color:#e5ccd8;font-weight:bold;"] {
+    background-color: #580808 !important;
+}
+th[style="font-size: 85%;background-color:#e5ccd8;"] {
+    background-color: #580808 !important;
+}
+td[style="font-size: 85%;background-color:#f6dde9;"] {
+    background-color: #580808 !important;
+}

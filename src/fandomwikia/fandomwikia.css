@@ -1,0 +1,65 @@
+
+/*
+================
+Fandom Wikia  
+================ 
+*/
+
+/* Menu dropdown */
+.wds-is-not-scrollable {
+  background-color: #000000 !important;
+}
+
+/* Seach box */
+.wds-dropdown__content {
+  background-color: #000000 !important;
+}
+
+.wds-dropdown__content .wds-list.wds-is-linked > li > a {
+  color: #66798f !important;
+}
+
+/* Fix share button icon*/
+svg.wds-icon.wds-icon-small {
+  color: #fcf9f9 !important;
+}
+
+/* Background */
+#WikiaPageBackground, .WikiaPageBackground {
+  background-color: #000000 !important;
+  background: #000000 !important;
+}
+
+.WikiaTopAds {
+  /*background-color: #1F2457 !important;*/
+  display: none !important; /* Found this to be better solution */
+}
+
+.WikiaArticle, .article-comm-text {
+  background-color: #000000 !important;
+  color: #fcf9f9 !important;
+}
+
+/* Comments */
+.speech-bubble-message {
+  background-color: #000000 !important;
+}
+
+.WikiaArticle pre {
+  background-color: #222222 !important;
+  border: 1px solid #dedede !important;
+}
+
+/* I hate these videos with passion */
+.featured-video__wrapper {
+  display: none !important;
+}
+
+#WikiaAdInContentPlaceHolder {
+  display: none !important;
+}
+
+/* Recent Wiki Activity User Colors*/
+a.edit-info-user {
+  color: #747474bf !important;
+}
