@@ -9,11 +9,3 @@ This is a simplistic dark mode for [Fandom Fate/Grand Order Wikia](https://fateg
 I made this mainly for myself, as all general purpose Fandom Wikia CSS most of the time generate a huge deformed mess. This code should be simple and also human readable.
 
 As this was made to satisfy myself, not everyone will enjoy it. However, suggestions are welcome.
-
-## Azur Lane Koumakan JP - Dark Mode
-
-Dark mode for [Azur Lane Wiki](https://azurlane.koumakan.jp/Azur_Lane_Wiki). **Warning, not for the faint of heart.**
-
-## Medium – Dark Grey Fixed
-
-My fixes to [Medium – Dark Grey](https://userstyles.org/styles/137280/medium-medium-com-dark-grey) by apushkarev.
