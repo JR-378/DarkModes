@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 
 var buildFolder = "./build/";
 
-function css(fullPath, newFilename) {
+function buildAsSingleCss(fullPath, newFilename) {
   return gulp.src(fullPath)
     .pipe(cssimport())
     .pipe(rename(function(path) {
@@ -14,9 +14,11 @@ function css(fullPath, newFilename) {
     .pipe(gulp.dest(buildFolder))
 }
 
-var fate = () => css(
+// Task to build Fate CSS file
+var fate = () => buildAsSingleCss(
   "./src/fandomwikia/fate_grand_order/main.css",
   "fate_grand_order"
 )
 
-exports.default = fate
+// Basically => gulp.parallel(example1, example2, example3)
+exports.default = gulp.parallel(fate)
