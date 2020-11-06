@@ -229,7 +229,6 @@ td[style*="background-color:#e5ccd8;"] {
 th[style*="background-color:#e5ccd8;"] {
     background-color: #580808 !important;
 }
-
 /* 
 ============
 Community 
@@ -263,15 +262,11 @@ span[style="color:Green;"] {
 }
 
 /* Forum */
-.Forum .activity {
-  color: #8a8888 !important;
-}
-
-.Wall .comments .SpeechBubble .msg-title a {
-  color: #8a8888 !important;
-}
-
-.WikiaPage .page-header__page-subtitle nav {
+.Forum .activity,
+.Wall .comments .SpeechBubble .msg-title a,
+.WikiaPage .page-header__page-subtitle nav,
+div[class*="EditedBy"],
+div[class="license-description"] {
   color: #8a8888 !important;
 }
 
@@ -289,16 +284,25 @@ div#ember4 {
   color: #fcf9f9 !important;
 }
 
-.discussion-wrapper {
+.discussion-wrapper,
+.discussion.forum,
+.post-detail,
+.post-entry-point__items,
+.CategorySelect.articlePage,
+.inline-wrapper .user-avatar,
+.inline-editor__floating-container,
+.editor-toolbar,
+/* Comment section */
+div[class*="Comment"],
+div[class*="Reply"] {
   background-color: #000000 !important;
 }
 
-.discussion.forum .post-detail {
+/* Add a comment about x */
+div[class*="InlineEntityFormWrapper"],
+button[class*="LoadMore"] {
   background-color: #000000 !important;
-}
-
-.post-entry-point__items {
-  background-color: #000000 !important;
+  color: #fcf9f9 !important;
 }
 
 .has-gradient .post-content__body::before {
@@ -313,17 +317,4 @@ div#ember4 {
 .discussion .load-older {
   background-color: #202020 !important;
 }
-
-.inline-wrapper .user-avatar {
-  background-color: #000000 !important;
-}
-
-.inline-editor__floating-container {
-  background-color: #000000 !important;
-}
-
-.editor-toolbar {
-  background-color: #000000 !important;
-}
-
 }
