@@ -25,7 +25,7 @@ svg.wds-icon.wds-icon-small {
 }
 
 /* Background */
-#WikiaPageBackground, .WikiaPageBackground {
+#WikiaPageBackground, .WikiaPageBackground, .WikiaPage, .WikiaPageContentWrapper {
   background-color: #000000 !important;
   background: #000000 !important;
 }

@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/JemisaR/DarkModes#readme",
   "dependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
     "gulp-cssimport": "^7.0.0",
     "gulp-rename": "^2.0.0"
