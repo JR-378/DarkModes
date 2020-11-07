@@ -179,11 +179,12 @@ table.ServantInfoNav tbody tr td {
 }
 /* End: Make glyph visible */
 
-/* Remove atlantis-bg 
-Noticed here: https://fategrandorder.fandom.com/wiki/Achilles
+/* Remove 
+atlantis-bg: https://fategrandorder.fandom.com/wiki/Achilles
+anastasia-bg: https://fategrandorder.fandom.com/wiki/Atalanta_(Alter)
 */
-
-.atlantis-bg {
+div[class="atlantis-bg"],
+div[class="anastasia-bg"] {
     background: none !important;
 }
 
