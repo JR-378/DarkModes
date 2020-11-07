@@ -1,6 +1,6 @@
 # What is this
 
-A collection of my dark modes. Use Stylus, Dark Reader or some other browser extension to apply them to websites.
+A collection of my dark modes. Use [Stylus](https://github.com/openstyles/stylus), [Dark Reader](https://darkreader.org/) or some other browser extension to apply them to websites.
 
 I create my own only when [Dark Reader](https://darkreader.org/) does not work the way I want it to.
 

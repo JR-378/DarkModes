@@ -19,6 +19,19 @@ Fandom Wikia
   color: #66798f !important;
 }
 
+/* Fan Feed */
+[class*=discussions],
+[class*=discussions]:after,
+[class*=discussions]:before,
+[class*="related-wikis"] {
+  color: #fcf9f9 !important;
+  background-color: #000000 !important;
+}
+
+[class*=discussions__in] {
+  color: #747474bf !important;
+}
+
 /* Fix share button icon*/
 svg.wds-icon.wds-icon-small {
   color: #fcf9f9 !important;
@@ -64,6 +77,7 @@ a.edit-info-user {
   color: #747474bf !important;
 }
 
+
 /*
 ================
 Fate GO  
@@ -86,14 +100,16 @@ div.timeline-Widget {
     background-color: #000000 !important;
 }
 
-/* News, Current events */
-span[style="color:#FFFFFF;"] big {
-    color: #ffffff !important;
+.timeline-Tweet:hover {
+    background-color: transparent !important; 
 }
 
+/* News, Current events */
+span[style="color:#FFFFFF;"] big,
 span[style="color:white;"] big {
     color: #ffffff !important;
 }
+
 
 span[style="color:#1f2557;"] big {
     color: #1f2557 !important;

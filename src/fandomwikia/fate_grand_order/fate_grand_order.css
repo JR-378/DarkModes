@@ -21,14 +21,16 @@ div.timeline-Widget {
     background-color: #000000 !important;
 }
 
-/* News, Current events */
-span[style="color:#FFFFFF;"] big {
-    color: #ffffff !important;
+.timeline-Tweet:hover {
+    background-color: transparent !important; 
 }
 
+/* News, Current events */
+span[style="color:#FFFFFF;"] big,
 span[style="color:white;"] big {
     color: #ffffff !important;
 }
+
 
 span[style="color:#1f2557;"] big {
     color: #1f2557 !important;
